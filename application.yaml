@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: tashi-deploy-pet
+  name: tashi-deploy-pet-app
   namespace: argocd
 spec:
   project: default
