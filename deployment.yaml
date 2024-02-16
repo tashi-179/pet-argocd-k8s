@@ -15,5 +15,5 @@ spec:
         app: tashi-deploy-pet
     spec:
       containers:
-      - image: tashi179/tashi-deploy-pet:19
+      - image: tashi179/tashi-deploy-pet:6
         name: tashi-deploy-pet
