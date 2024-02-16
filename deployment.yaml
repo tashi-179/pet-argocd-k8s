@@ -2,18 +2,18 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
-  name: pet-deploy
+    app: tashi-deploy-pet
+  name: tashi-deploy-pet
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: tashi-deploy-pet
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: tashi-deploy-pet
     spec:
       containers:
       - image: tashi179/tashi-deploy-pet:19
-        name: pet
+        name: tashi-deploy-pet
