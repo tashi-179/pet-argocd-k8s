@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: tashi-deploy-pet
-  name: tashi-deploy-pet
+    app: tashi-deploy-pet-svc
+  name: tashi-deploy-pet-svc
   #namespace: pet
 spec:
   ports:
