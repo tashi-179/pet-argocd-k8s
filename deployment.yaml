@@ -2,8 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: tashi-deploy-pet
-  name: tashi-deploy-pet
+    app: tashi-deploy-pet-dp
+  name: tashi-deploy-pet-dp
 spec:
   replicas: 2
   selector:
